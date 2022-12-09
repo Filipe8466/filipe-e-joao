@@ -1,0 +1,156 @@
+body{
+display: flex;
+
+flex-wrap: wrap;
+
+flex-direction: row;
+
+background-color: rgb(15, 0, 48);
+
+justify-content: center;
+
+color: white;
+}
+
+
+.caixa{
+display: flex;
+
+flex-wrap: wrap;
+
+flex-direction: row;
+
+width: 100%;
+}
+
+
+.imagem1{
+width: 100%;
+
+height: 10vh;
+
+text-align: center;
+
+padding: 10px;
+}
+
+
+.imagem2{
+width: 70%;
+
+height: 45vh;
+
+text-align: center;
+}
+
+
+.imagem3{
+width: 30%;
+
+height: 45vh;
+}
+
+
+.caixa2{
+display: flex;
+
+flex-wrap: wrap;
+
+width: 90%;
+
+margin: 50px 0px 0px 0px;
+
+text-align: center;
+}
+
+
+.imagem4{
+width: 20%;
+
+height: 65vh;
+
+text-align: center;
+}
+
+
+.imagem5{
+width: 80%;
+
+height: 65vh;
+
+
+
+text-align: center;
+
+display: flex;
+
+flex-wrap: wrap;
+
+flex-direction: row;
+}
+
+
+.foto1{
+width: 33%;
+
+height: 25vh;
+}
+
+
+.foto2{
+width: 33%;
+
+height: 25vh;
+}
+
+
+.foto3{
+width: 33%;
+
+height: 25vh;
+}
+
+
+.foto4{
+width: 33%;
+
+height: 25vh;
+}
+
+
+.foto5{
+width: 33%;
+
+height: 25vh;
+}
+
+
+.foto6{
+width: 33%;
+
+height: 25vh;
+}
+
+
+.testo{
+width: 100%;
+
+height: 10vh;
+}
+.caixa2 p{
+    padding: 10px;
+}
+@media (max-width: 700px){
+.imagem2{
+    width: 100%;
+}
+.imagem3{
+    width: 100%;
+}
+.imagem4{
+    display: none;
+}
+.caixa2{
+    width: 100%;
+}
+}
